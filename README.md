@@ -1,1 +1,1 @@
-this repsitary contains some of my practice files 
+this repositary contains some of my practice files 
