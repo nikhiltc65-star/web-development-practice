@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>positionst</title>
+</head>
+
+<body>
+
+    <style>
+        .box {
+            padding: 20px;
+            border: 3px solid black;
+            outline: 10px 2px solid red;
+            outline-offset: 10px;
+            margin: 5px;
+            height: 500px;
+            width: 50vh;
+            overflow: auto;
+        }
+
+        .s {
+            position: absolute;
+        }
+
+        .box3{
+            top:0;
+            position: sticky;
+            /* top: 500px; */
+            height: 30px;
+            width: 50vh;
+            background-color: blue
+        }
+    </style>
+    <div class="s">
+        <div class="box box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aperiam sint fugit
+            pariatur
+            fugiat excepturi beatae totam rerum voluptatem accusamus voluptatibus neque labore temporibus non quibusdam
+            nesciunt quia magnam, at corporis delectus!</div>
+
+        <div class="box box3 top:33px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aperiam sint
+            fugit pariatur
+            fugiat excepturi beatae totam rerum voluptatem accusamus voluptatibus neque labore temporibus non quibusdam
+            nesciunt quia magnam, at corporis delectus!</div>
+
+        <div class="box box4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aperiam sint fugit
+            pariatur
+            fugiat excepturi beatae totam rerum voluptatem accusamus voluptatibus neque labore temporibus non quibusdam
+            nesciunt quia magnam, at corporis delectus!</div>
+
+        <div class="box box1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt aperiam sint fugit
+            pariatur
+            fugiat excepturi beatae totam rerum voluptatem accusamus voluptatibus neque labore temporibus non quibusdam
+            nesciunt quia magnam, at corporis delectus!</div>
+    </div>
+</body>
+
+
+</html>
